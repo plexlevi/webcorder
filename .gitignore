@@ -1,0 +1,54 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Packaging/build artifacts
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage.*
+htmlcov/
+*.cover
+
+# Temp and test files
+*_example.py
+*_test.py
+test_*.py
+*_temp.*
+*.tmp
+
+# Build outputs
+*.exe
+*.zip
+WebCorder-Portable-*.zip
+
+# Virtual environments and env files
+.venv/
+
+# GitHub token configuration (NEVER commit this!)
+config/github_config.json
+.env
+.env.*
+
+# Editors/IDEs
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Application-specific ignores
+config\webcorder_data.json
+
+# Release files (compiled installers and portable versions)
+releases/
